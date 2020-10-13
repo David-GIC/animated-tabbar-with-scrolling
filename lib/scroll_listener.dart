@@ -64,7 +64,7 @@ class _ScrollListenerPageState extends State<ScrollListenerPage>
     print(
         "${scrollController.position.pixels} vs ${MediaQuery.of(context).size.height}");
 
-    //100 is height of card widget -- 10 is space between each widget -- 62 included such as top padding, text widget etc...
+    //100 is height of card widget -- 10 is space between each widget -- 262 & 82 included such as top padding, sliver expand height, text widget etc...
 
     for (int i = 0; i < tabName.length; i++) {
       if (i == 0) {
